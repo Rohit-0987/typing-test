@@ -28,7 +28,7 @@ export default function Home() {
     <div
       className={`p-2 flex items-center justify-center ${poppins.className}`}
     >
-      <div className="py-3 px-5 border-[1px] rounded-md bg-slate-200 flex flex-col items-center justify-center min-w-[70%]">
+      <div className="py-3 px-5 border-[1px] rounded-md bg-slate-200 flex flex-col items-center justify-center min-w-[70%] h-[70vh]">
         <h1 className="text-[2em] font-semibold">
           Check your typing skills in a minute
         </h1>
@@ -52,12 +52,12 @@ export default function Home() {
             <option value="" disabled>
               Choose test duration
             </option>
-            <option value="30s">30 Seconds</option>
-            <option value="1m">1 Minute</option>
-            <option value="2m">2 Minute</option>
-            <option value="3m">3 Minute</option>
-            <option value="5m">5 Minute</option>
-            <option value="10m">10 Minute</option>
+            <option value="30">30 Seconds</option>
+            <option value="60">1 Minute</option>
+            <option value="120">2 Minute</option>
+            <option value="180">3 Minute</option>
+            <option value="300">5 Minute</option>
+            <option value="600">10 Minute</option>
           </select>
 
           <select
